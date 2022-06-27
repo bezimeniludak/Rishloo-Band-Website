@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+*{
+  font-family: 'Catamaran', sans-serif;
+  font-size: large;
+}
+body{
+  background-attachment: fixed;
+}
+nav{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.card{
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: white;
+}
+
+.card img {
+  padding: 10px;
+}
+section {
+  margin-top: 2rem;
+}
+footer {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: 2rem;
+}
+footer a {
+  color: #666666;
+  transition: color 0.4s ease-in;
+  padding: 0.2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+footer a:hover {
+  color:white;
+  text-decoration: none;
+}
+hr{
+  color: white !important;
+}
+h1,h5,h4,hr {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+}
+.carousel img{
+  width: 800px;
+  height: 600px;
+}

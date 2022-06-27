@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gallery">
+  <meta name="keywords" content="Rishloo, gallery, images">
+  <meta name="author" content="Aleksa Petrovic, aleksanrt3319@gs.viser.edu.rs">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <!--CSS-->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <style>
+    body {
+      background-image: url(img/background-gallery.png);
+    }
+  </style>
+
+  <title>Rishloo - Gallery</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/nav-logo.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="albums.html">Albums</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="concerts.html">Concerts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-5">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/Rishloo" target="_blank">
+              <i class="fab fa-facebook-f fa-2x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/rishlooband" target="_blank">
+              <i class="fab fa-twitter fa-2x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/user/rishloomusic" target="_blank">
+              <i class="fab fa-youtube fa-2x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://soundcloud.com/rishloo" target="_blank">
+              <i class="fab fa-soundcloud fa-2x"></i></a>
+          </li>
+        </ul>
+        <form class="d-flex" action="success.html">
+          <input class="form-control me-2" type="email" placeholder="Join our Newsletter" aria-label="Email">
+          <button type="submit" class="btn btn-outline-light">Go!</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="background-color:rgba(0,0,0,0);">
+    <h1 class="display-4">Gallery</h1>
+    <hr>
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/portlandShow.jpg" class="d-block w-100" alt="Show in Portland">
+          </div>
+          <div class="carousel-item">
+            <img src="img/crocodile.jpg" class="d-block w-100" alt="Crocodile Show">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel1.webp" class="d-block w-100" alt="band1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel2.webp" class="d-block w-100" alt="band2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel3.jpg" class="d-block w-100" alt="cover">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel4.webp" class="d-block w-100" alt="rehersal">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel5.webp" class="d-block w-100" alt="band3">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel6.jpeg" class="d-block w-100" alt="feathergun cover">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel7.webp" class="d-block w-100" alt="break">
+          </div>
+          <div class="carousel-item">
+            <img src="img/background1.png" class="d-block w-100" alt="abstract">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+      <br>
+      <div class="d-grid gap-2">
+        <a class="btn btn-dark btn-lg btn-block" href="gallery.rar" role="button">Download Gallery</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="row text-center">
+      <div class="col-12">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="concerts.html">Concerts</a></li>
+          <li class="list-inline-item"><a href="about.html">About us</a></li>
+          <li class="list-inline-item"><a href="faq.html">FAQ</a></li>
+          <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+          <li class="list-inline-item"><a href="sitemap.html">Site map</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
