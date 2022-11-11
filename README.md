@@ -1,6 +1,6 @@
 # Rishloo Website
 
-This is a reimagining of the offical website for the band **Rishloo**.
+This is a reimagining of the official website for the band **Rishloo**.
 
 [**My website**][my website]  
 [Original website][original website]
